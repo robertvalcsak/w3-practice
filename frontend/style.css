@@ -1,81 +1,41 @@
-div {
-    background-color: brown;
-    height: 100vh;
-    width: 100vh;
+* {
+    margin: 0;
+}
+
+.root {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
 }
 
-div > div {
-    background-color: aqua;
-    height: 90vh;
-    width: 90vh;
+.box {
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
 }
 
-div > div >div {
-    background-color: antiquewhite;
-    height: 80vh;
-    width: 80vh;
-}
-
-div > div >div > div {
-    background-color: aquamarine;
-    height: 70vh;
-    width: 70vh;
-}
-
-div > div >div > div > div {
-    background-color: blanchedalmond;
-    height: 60vh;
-    width: 60vh;
-}
-
-div > div >div > div > div > div {
-    background-color: blueviolet;
-    height: 50vh;
-    width: 50vh;
-}
-
-div > div >div > div > div > div > div {
-    background-color: black;
-    height: 40vh;
-    width: 40vh;
-}
-
-div > div >div > div > div > div > div > div {
-    background-color: blue;
-    height: 30vh;
-    width: 30vh;
-}
-
-div > div >div > div > div > div > div > div > div {
-    background-color: beige;
-    height: 20vh;
-    width: 20vh;
-}
-
-div > div >div > div > div > div > div > div > div > div {
-    background-color: bisque;
-    height: 10vh;
-    width: 10vh;
-}
-
-.pos-fixed {
-   position: fixed;
-   top: 0px;
-   left: 0px;
-   width: 100%;
-}
-
-.asd1 {
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 1px black solid;
+    border-radius: 50%;
     position: absolute;
-    bottom: 0;
+}
+
+.top-circle {
+    top: 0;
+}
+
+.left-circle {
     left: 0;
 }
 
-.pos-relative {
-    position: relative;
-    top: 100px;
-    left: 10px;
+.right-circle {
+    right: 0;
+}
+
+.bottom-circle {
+    bottom: 0;
 }
