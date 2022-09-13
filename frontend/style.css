@@ -75,11 +75,11 @@ div > div >div > div > div > div > div > div > div > div {
     border-top-right-radius: 30%;
 }
 
-body > div,
+/* body > div,
 .most-inner {
     border: 20px solid black;
     box-sizing: border-box;
-}
+} */
 
 .most-inner:hover {
     background-color: white;
