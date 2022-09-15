@@ -33,4 +33,4 @@ function loadEvent() {
     rootElement.insertAdjacentHTML("beforeend", "hello world");
 }
 
-window.addEventListener("click", loadEvent());
+window.addEventListener("load", loadEvent);
